@@ -1,6 +1,6 @@
 # Feedforward Neural Network
 
-> Tugas Besar 1 Intelegensi Artifisial
+> Tugas Besar 1 IF3270 Pembelajaran Mesin
 >
 > Oleh Kelompok 19:<br>
 > 1. 13522088 Muhamad Rafli Rasyiidin<br>
