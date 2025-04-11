@@ -24,7 +24,7 @@ Feedforward neural network (FFNN) is a type of neural networks that has unidirec
 Install Python if you didn't have it already. Install packages listed on `requirements.txt` using `pip install -r requirements.txt`. Use a jupyter notebook file opener like VSCode, jupyter served on localhost, or anything else that works for you.
 
 ## How to Run
-Just run the notebook.
+Import ffnn.py from src, use class LayerWrapper to instantiate a new NN model.
 
 ## Group Contribution
 <table>
