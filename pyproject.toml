@@ -1,0 +1,31 @@
+[project]
+name = "tubes1-ml"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhamad Rafli Rasyiidin", email = "masraflirasid@gmail.com" },
+    { name = "Andhika Tantyo Anugrah", email = "69108822+CrystalNoob@users.noreply.github.com" },
+    { name = "M. Hanief Fatkhan Nashrullah", email = "hanieffatkhan@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dill>=0.4.1",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "matplotlib-inline>=0.2.2",
+    "networkx>=3.6.1",
+    "numpy>=2.5.3",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+    "tensorflow[and-cuda]>=2.21.0",
+    "tqdm>=4.70.0",
+    "typing>=3.10.0.0",
+]
+
+[project.scripts]
+tubes1-ml = "tubes1_ml:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
